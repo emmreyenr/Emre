@@ -1,5 +1,3 @@
-# Emre
-/*AgacYapisi*/
 #include<stdlib.h>
 #include<stdio.h>
 
@@ -12,9 +10,9 @@ struct agac
 
 };
 
-typedef struct agac node; // takma ad verdik!
+typedef struct agac node; 
 
-node *agacEkle(node *agac, int x) // int x ekleyeceÄŸimiz deÄŸer!
+node *agacEkle(node *agac, int x) 
 
 {
     if (agac == NULL)
@@ -66,7 +64,7 @@ void Dolas(node *agac)
 int maksimum(node *agac) 
 {
 
-    while(agac->SagBag != NULL) // saÄŸa gidiyoruz!
+    while(agac->SagBag != NULL) 
     
     {
     	
